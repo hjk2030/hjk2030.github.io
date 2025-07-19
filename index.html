@@ -4,57 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>页面跳转</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #f5f5f5;
-            font-family: "Microsoft YaHei", sans-serif;
-        }
-        .jump-container {
-            text-align: center;
-            padding: 30px 50px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-        .jump-text {
-            font-size: 20px;
-            color: #333;
-            margin-bottom: 15px;
-        }
-        .loading {
-            width: 40px;
-            height: 40px;
-            border: 4px solid #eee;
-            border-top-color: #47.122.155.173;
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin: 0 auto;
-        }
-        @keyframes spin {
-            to { transform: rotate(360deg); }
-        }
-    </style>
-    <!-- 3秒后自动跳转 -->
-    <meta http-equiv="refresh" content="3;url=http://47.122.155.173/">
 </head>
 <body>
-    <div class="jump-container">
-        <div class="jump-text">正在跳转中...</div>
-        <div class="loading"></div>
-    </div>
 
-    <!-- 为确保兼容性，添加JavaScript跳转备份 -->
-<!--     <script>
-        // 3秒后跳转
-        setTimeout(function() {
-            window.location.href = "http://47.122.155.173/";
-        }, 1500);
-    </script> -->
 </body>
 </html>
